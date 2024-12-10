@@ -1,0 +1,73 @@
+[
+    {
+      "type": "UI/UX Designer",
+      "catType": "예술적인 스코티시 폴드형",
+      "introduction": "창의적인 아이디어와 혁신적인 디자인으로 독창적인 사용자 경험을 제공합니다.",
+      "relatedJobs": ["UX 디자이너", "UI 디자이너", "서비스 디자이너", "제품 디자이너"],
+      "coreSkills": ["창의력", "사용성 테스트 능력", "시각적 커뮤니케이션 스킬"],
+      "recommendedSkills": ["Figma", "Sketch", "Adobe XD"],
+      "professors": ["김자희 교수님", "홍정식 교수님"],
+      "tags": ["디자인", "사용자 경험", "창의력", "프로토타입"]
+    },
+    {
+      "type": "Frontend Developer",
+      "catType": "냉철한 오리엔탈 숏헤어형",
+      "introduction": "유연한 사고로 직관적이고 사용자 친화적인 인터페이스를 구축합니다.",
+      "relatedJobs": ["프론트엔드 개발자", "웹 개발자", "UI 엔지니어"],
+      "coreSkills": ["프레임워크 사용 능력", "반응형 디자인 구현 능력"],
+      "recommendedSkills": ["React", "JavaScript", "HTML/CSS"],
+      "professors": ["김우제 교수님", "이영훈 교수님"],
+      "tags": ["프로그래밍", "웹 개발", "UI", "반응형 디자인"]
+    },
+    {
+      "type": "Backend Developer",
+      "catType": "고독한 러시안 블루형",
+      "introduction": "데이터베이스 설계와 서버 구조 최적화로 시스템 성능을 향상시킵니다.",
+      "relatedJobs": ["백엔드 개발자", "데이터베이스 관리자(DBA)", "시스템 엔지니어"],
+      "coreSkills": ["프로그래밍 언어", "데이터베이스 관리", "RESTful API 설계"],
+      "recommendedSkills": ["Java", "Python", "Node.js"],
+      "professors": ["권혁윤 교수님", "심민규 교수님"],
+      "tags": ["서버", "API", "데이터베이스", "백엔드"]
+    },
+    {
+      "type": "DevOps Engineer",
+      "catType": "독립적인 벵갈형",
+      "introduction": "시스템 자동화 및 CI/CD 파이프라인 설계를 통해 개발과 운영의 협력을 극대화합니다.",
+      "relatedJobs": ["데브옵스 엔지니어", "시스템 관리자", "클라우드 엔지니어"],
+      "coreSkills": ["클라우드 플랫폼", "스크립트 작성", "CI/CD 툴"],
+      "recommendedSkills": ["Jenkins", "Docker", "Kubernetes"],
+      "professors": ["안재경 교수님", "이학연 교수님"],
+      "tags": ["자동화", "CI/CD", "클라우드", "DevOps"]
+    },
+    {
+      "type": "Data Analyst",
+      "catType": "호기심 많은 스핑크스형",
+      "introduction": "데이터를 기반으로 통찰력 있는 결정을 내리고 새로운 기회를 발견합니다.",
+      "relatedJobs": ["데이터 분석가", "비즈니스 분석가", "데이터 사이언티스트"],
+      "coreSkills": ["SQL", "Python/R", "통계학"],
+      "recommendedSkills": ["Python", "Tableau", "Power BI"],
+      "professors": ["심재웅 교수님", "윤양인 교수님"],
+      "tags": ["데이터", "분석", "통계", "시각화"]
+    },
+    {
+      "type": "IT Strategy Consultant",
+      "catType": "전략적인 사바나형",
+      "introduction": "기술적 지식과 비즈니스 통찰력으로 혁신적인 전략을 제안합니다.",
+      "relatedJobs": ["IT 컨설턴트", "프로젝트 매니저", "기술 전략가"],
+      "coreSkills": ["비즈니스 분석", "IT 트렌드 이해", "문제 해결 능력"],
+      "recommendedSkills": ["Excel", "PowerPoint", "Jira"],
+      "professors": ["이학연 교수님", "금영정 교수님"],
+      "tags": ["전략", "컨설팅", "비즈니스", "기술"]
+    },
+    {
+      "type": "Business Development Manager",
+      "catType": "장난꾸러기 아비시니안형",
+      "introduction": "시장 트렌드 분석과 전략 수립을 통해 비즈니스 기회를 발굴합니다.",
+      "relatedJobs": ["비즈니스 개발 관리자", "영업 관리자", "마케팅 전략가"],
+      "coreSkills": ["커뮤니케이션 능력", "데이터 분석", "네트워킹 스킬"],
+      "recommendedSkills": ["Salesforce", "HubSpot", "Power BI"],
+      "professors": ["조남욱 교수님", "김지표 교수님"],
+      "tags": ["비즈니스", "영업", "마케팅", "네트워킹"]
+    }
+  ]
+  

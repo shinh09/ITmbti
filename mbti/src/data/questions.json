@@ -1,0 +1,108 @@
+[
+    {
+      "id": 1,
+      "type": "UI/UX Designer",
+      "question": "새로운 아이디어를 생각하고 디자인하는 것을 즐긴다."
+    },
+    {
+      "id": 2,
+      "type": "UI/UX Designer",
+      "question": "사용자의 요구를 이해하고 반영하는 것이 중요하다고 생각한다."
+    },
+    {
+      "id": 3,
+      "type": "UI/UX Designer",
+      "question": "디자인 소프트웨어를 능숙하게 다룰 수 있다."
+    },
+    {
+      "id": 4,
+      "type": "Frontend Developer",
+      "question": "웹사이트나 애플리케이션의 사용자 인터페이스를 만드는 것을 좋아한다."
+    },
+    {
+      "id": 5,
+      "type": "Frontend Developer",
+      "question": "반응형 웹 디자인을 구현할 수 있다."
+    },
+    {
+      "id": 6,
+      "type": "Frontend Developer",
+      "question": "JavaScript와 프레임워크에 익숙하다."
+    },
+    {
+      "id": 7,
+      "type": "Backend Developer",
+      "question": "서버와 데이터베이스 관리를 좋아한다."
+    },
+    {
+      "id": 8,
+      "type": "Backend Developer",
+      "question": "효율적인 API 설계를 할 수 있다."
+    },
+    {
+      "id": 9,
+      "type": "Backend Developer",
+      "question": "데이터베이스 최적화에 관심이 많다."
+    },
+    {
+      "id": 10,
+      "type": "DevOps Engineer",
+      "question": "CI/CD 파이프라인을 설계하고 자동화하는 것이 흥미롭다."
+    },
+    {
+      "id": 11,
+      "type": "DevOps Engineer",
+      "question": "클라우드 환경을 체계적으로 관리할 수 있다."
+    },
+    {
+      "id": 12,
+      "type": "DevOps Engineer",
+      "question": "자동화 스크립트를 작성하는 것을 좋아한다."
+    },
+    {
+      "id": 13,
+      "type": "Data Analyst",
+      "question": "데이터를 분석하고 패턴을 찾는 것을 즐긴다."
+    },
+    {
+      "id": 14,
+      "type": "Data Analyst",
+      "question": "데이터 시각화 도구를 사용할 수 있다."
+    },
+    {
+      "id": 15,
+      "type": "Data Analyst",
+      "question": "통계 분석을 통해 인사이트를 도출할 수 있다."
+    },
+    {
+      "id": 16,
+      "type": "IT Strategy Consultant",
+      "question": "기술과 비즈니스를 결합한 전략을 수립하는 것이 흥미롭다."
+    },
+    {
+      "id": 17,
+      "type": "IT Strategy Consultant",
+      "question": "기술 로드맵을 설계할 수 있다."
+    },
+    {
+      "id": 18,
+      "type": "IT Strategy Consultant",
+      "question": "비즈니스 문제 해결에 기술적 접근을 적용한다."
+    },
+    {
+      "id": 19,
+      "type": "Business Development Manager",
+      "question": "비즈니스 기회를 발굴하고 전략을 세우는 것을 좋아한다."
+    },
+    {
+      "id": 20,
+      "type": "Business Development Manager",
+      "question": "네트워킹과 협상을 즐긴다."
+    },
+    {
+      "id": 21,
+      "type": "Business Development Manager",
+      "question": "시장 조사와 분석을 통해 성장 기회를 찾는다."
+    }
+  ]
+  

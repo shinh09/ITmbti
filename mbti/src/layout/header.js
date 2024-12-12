@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import AboutModal from "../components/AboutModal";
 
 const HeaderSection = styled.header`
   width: 100%;
@@ -58,19 +59,38 @@ const NavLink = styled(Link)`
   }
 `;
 
+const NavItem = styled.span`
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: color 0.3s;
+
+  &:hover {
+    color: #d1d0ff;
+  }
+`;
+
 const Header = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => setShowModal(true);
+  const closeModal = () => setShowModal(false);
+
   return (
-    <HeaderSection>
-      <Logo>
-        <h1>IT-MBTI</h1>
-      </Logo>
-      <Nav>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/about">About</NavLink>
-        <NavLink to="/question">Take the Test</NavLink>
-        <NavLink to="/result">Results</NavLink>
-      </Nav>
-    </HeaderSection>
+    <>
+      <HeaderSection>
+        <Logo>
+          <h1>IT-MBTI</h1>
+        </Logo>
+        <Nav>
+          <NavLink to="/">Home</NavLink>
+          <NavItem onClick={openModal}>About</NavItem>
+          <NavLink to="/question">Take the Test</NavLink>
+          <NavLink to="/result">Results</NavLink>
+        </Nav>
+      </HeaderSection>
+      {showModal && <AboutModal onClose={closeModal} />}
+    </>
   );
 };
 

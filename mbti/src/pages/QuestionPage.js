@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 import Question from "../components/Question";
-import questions from "../data/questions.json"; // 질문 JSON 파일 불러오기
+import questions from "../data/questions.json"; 
 
 const Container = styled.div`
   display: flex;
@@ -11,6 +11,21 @@ const Container = styled.div`
   align-items: center;
   height: 100vh;
   background-color: #e0e0e0;
+`;
+const ProgressBarContainer = styled.div`
+  width: 80%;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+`;
+
+const Progress = styled.div`
+  height: 100%;
+  width: ${({ percentage }) => percentage}%;
+  background-color: #4caf50;
+  transition: width 0.3s ease-in-out;
 `;
 
 const ButtonContainer = styled.div`
@@ -49,9 +64,13 @@ function QuestionPage() {
       navigate("/result", { state: { scores } });
     }
   };
+  const progressPercentage = ((currentIndex + 1) / questions.length) * 100;
 
   return (
     <Container>
+      <ProgressBarContainer>
+        <Progress percentage={progressPercentage} />
+      </ProgressBarContainer>
       <Question
         questionText={questions[currentIndex].question}
         onAnswer={(score) => handleAnswer(questions[currentIndex].type, score)}

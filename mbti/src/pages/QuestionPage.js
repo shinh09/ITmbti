@@ -10,7 +10,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #e0e0e0;
+  background: linear-gradient(180deg, #E8EAF3 10%, #A0B7E1 40%, #4A79D1 90%);
 `;
 const ProgressBarContainer = styled.div`
   width: 80%;
@@ -24,7 +24,7 @@ const ProgressBarContainer = styled.div`
 const Progress = styled.div`
   height: 100%;
   width: ${({ percentage }) => percentage}%;
-  background-color: #4caf50;
+  background-color: #4A79D1;
   transition: width 0.3s ease-in-out;
 `;
 
@@ -36,14 +36,14 @@ const NavButton = styled.button`
   padding: 10px 20px;
   font-size: 1rem;
   margin: 5px;
-  color: white;
-  background-color: #4caf50;
+  color: black;
+  background-color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
 
   &:hover {
-    background-color: #45a049;
+    background-color: #ddd;
   }
 `;
 
@@ -77,7 +77,7 @@ function QuestionPage() {
       />
       <ButtonContainer>
         <NavButton onClick={() => setCurrentIndex((prev) => Math.max(prev - 1, 0))}>
-          이전
+         ⬅ Previous
         </NavButton>
       </ButtonContainer>
     </Container>

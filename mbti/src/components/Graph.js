@@ -2,12 +2,13 @@ import React from "react";
 import styled from "styled-components";
 
 const GraphContainer = styled.div`
-  width: 652px;
+  width: 640px;
   height: 436px;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
+  padding: 5px;
 `;
 
 
@@ -18,7 +19,7 @@ const GraphItem = styled.div`
 const GraphLabel = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 `;
 
 const LabelText = styled.span`
